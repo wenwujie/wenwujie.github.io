@@ -2564,3 +2564,14 @@ float: none;
 color: #333;
 }
 }
+.text-block {
+    text-align: left;
+    display: inline-block;
+  }
+  
+  @media (max-width: 50%) {
+    .text-block {
+      display: block;
+      text-align: left;
+    }
+}
