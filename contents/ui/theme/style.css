@@ -590,6 +590,16 @@ padding: 0;
 .wp-caption.alignleft + ol {
 list-style-position: inside;
 }
+.text-block {
+  text-align: left;
+  display: inline-block;
+}
+@media (max-width: 50%) {
+  .text-block {
+    display: block;
+    text-align: left;
+  }
+}
 .site {
 background-color: #fff;
 border-left: 1px solid #f2f2f2;
@@ -2563,15 +2573,4 @@ float: none;
 .comment-reply-login {
 color: #333;
 }
-}
-.text-block {
-    text-align: left;
-    display: inline-block;
-  }
-  
-  @media (max-width: 50%) {
-    .text-block {
-      display: block;
-      text-align: left;
-    }
 }
